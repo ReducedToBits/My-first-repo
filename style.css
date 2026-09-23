@@ -56,6 +56,14 @@ body {
 .input-fields-ID {
     text-align: center;
     margin: 8px 0;
+    display: inline-block;
+}
+
+.user-id-label {
+    font-family: sans-serif;
+    text-align: start;
+    margin: 0px 0px 4px 0px;
+    font-size: 18px;
 }
 
 .User-ID {
@@ -73,6 +81,14 @@ body {
 .input-fields-Pass {
     text-align: center;
     margin: 8px 0;
+    display: inline-block;
+}
+
+.password-label {
+    font-family: sans-serif;
+    text-align: start;
+    margin: 0px 0px 4px 0px;
+    font-size: 18px;
 }
 
 .Password {
