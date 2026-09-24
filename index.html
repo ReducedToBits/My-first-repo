@@ -21,27 +21,28 @@
                 <div class="login-head-container">
                     <p class="login-head">LOGIN</p>
                     <p class="login-head-description">Login to your <b>Union</b> account</p>
-                    <p class="wrong-credential"></p>
+                    <p id="wrong-cred-popup" class="wrong-credential"></p>
                 </div>
                 <div class="input-fields">
                     <div class="input-fields-ID">
                         <p class="user-id-label">User ID</p>
-                        <input class="User-ID" type="text">
+                        <input id="id-user" class="User-ID" type="text">
                     </div>
                     <div class="input-fields-Pass">
                         <p class="password-label">Password</p>
-                        <input class="Password" type="password">
+                        <input id="user-password" class="Password" type="password">
                     </div>
                     <div class="forgot-password-container">
                         <p class="forgot-password">Forgot password ?
-                            <a href="www.placeholder.com" class="reset" target="_blank">Contact recovery team</a>
+                            <a href="recovery-team.html" class="reset" target="_blank">Contact recovery team</a>
                         </p>
                     </div>
                 </div>
                 <div class="button-container">
-                    <a class="login-button" href="www.placeholder.com">Login</a>
+                    <button id="login" class="login-button">Login</button>
                 </div>           
             </div>
         </div>      
     </body>
+    <script src="index.js"></script>
 </html>
