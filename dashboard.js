@@ -1,0 +1,1 @@
+document.getElementById("prank-audio2").play();

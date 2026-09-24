@@ -1,0 +1,25 @@
+.pic1,
+.pic4 {
+    display: block;
+}
+
+.to-align {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-pic4 {
+    height:500px;
+    width: 400px;
+}
+
+.img-pic1 {
+    height: 200px;
+    width: 300px;
+}
+
+p {
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
