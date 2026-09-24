@@ -1,7 +1,7 @@
 document.getElementById("login").onclick = function() {
     const ID = document.getElementById("id-user").value;
     const password = document.getElementById("user-password").value;
-    if (ID == "Love you all" && password == "easypassword") {
+    if (ID == "SpreadLove" && password == "easypassword") {
         window.location.href = "dashboard.html"
         document.getElementById("prank-audio2").play();
     } else if (ID == "" || password == "") {
